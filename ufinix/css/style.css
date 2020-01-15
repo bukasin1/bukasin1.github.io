@@ -1,0 +1,367 @@
+.navbar-brand img{
+    width: 90px;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    z-index: 90;
+}
+.nav-link{
+    font-weight: bold;
+    color: #141414;
+}
+.nav-link:hover{
+    color: #f82249;
+}
+.navbar-toggler span{
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+}
+.btn-custom1{
+    border: 1px solid blue;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-weight: bold;
+}
+.btn-custom1:hover{
+    background: blue;
+    color: white;
+}
+.btn-custom2{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-weight: bold;
+}
+
+.first{
+    margin-top: 50px;
+    padding: 100px 50px 100px 50px;
+    background-color: rgb(21, 21, 80)
+}
+.first1{
+    color: white;
+    padding-top: 100px;
+}
+.first1 h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.first1 p{
+    margin-top: 20px !important;
+    font-size: 23px;
+    font-family: sans-serif;
+    line-height: 36px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+.first1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.first1 ul li{
+    display: inline;
+}
+.butt1{
+    padding: 7px 10px 7px 10px;
+    background-color: rgba(175, 126, 126, 0.658);
+    border-radius: 45px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: sans-serif;
+    word-spacing: 2px;
+}
+.butt2{
+    padding: 7px 10px 7px 10px;
+    background-color: rgba(59, 174, 219, 0.685);
+    border-radius: 45px;
+    color: inherit;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: sans-serif;
+    word-spacing: 2px;
+}
+.register-form{
+    background-color: white;
+    height: 410px;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 150px;
+    border-radius: 5px;
+}
+.register-form h2{
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.p{
+    text-align: left;
+    margin-top: -7px;
+    color: grey;
+}
+.input-field{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.sign-button{
+    height: 50px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.col-md-4 img{
+    width: 50px;
+}
+.second{
+    padding-top: 100px;
+    margin-bottom: 100px;
+    font-family: sans-serif;
+}
+.second > h3{
+    text-align: center;
+    font-weight: bold;
+}
+.second1{
+    text-align: center;
+}
+.second11 img{
+    margin-bottom: 30px;
+}
+.second11 h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.second11 p{
+    font-size: 14px;
+}
+.second2 a:hover{
+    text-decoration: none;
+}
+.second2 a:hover h4{
+    color: blue;
+}
+.bx{
+    width: 100%;
+    height: 190px;
+    position: relative;
+    background: url(../image/uber-clone.jpg);
+    background-size: cover;
+}
+.bx11{
+    width: 100%;
+    height: 190px;
+    position: relative;
+    background: url(../image/xamarin-adr-img.77e6a199\ \(1\).png);
+    background-size: cover;
+}
+.bx1{
+    border-radius: 10px;
+    border: 1px solid rgba(153, 147, 147, 0.377);
+}
+.bx21{
+    border-radius: 10px;
+    border: 1px solid rgba(153, 147, 147, 0.377);
+    opacity: .7;
+}
+.bx2{
+    padding: 20px 18px 15px 18px;
+    font-family: sans-serif;
+    color: black;
+}
+.bx2 h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.bx2 p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+}
+.bx3{
+    display: flex;
+    font-size: 20px;
+    color: rgb(88, 87, 87) !important;
+}
+.bx3 p{
+    font-size: 16px;
+    color: rgba(88, 87, 87, 0.747) !important;
+}
+.bx3 img{
+    width: 25px;
+}
+.b{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.b span{
+    text-decoration: line-through;
+    color: rgba(88, 87, 87, 0.747);
+    font-weight: normal;
+}
+.third{
+    background-image:linear-gradient(to right, rgb(76, 0, 255), rgb(128, 57, 168));
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.third1{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.fourth-bg{
+    background: url(../image/Capture2.JPG);
+    height: 550px;
+    background-size: cover;
+}
+.fourth1{
+    margin-top: 200px;
+    font-family: sans-serif;
+}
+.fourth1 h3{
+    font-size: 33px;
+    font-weight: bold;
+}
+.fourth1 p{
+    font-size: 19px;
+}
+.but{
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(221, 87, 63);
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.fifth{
+    margin-top: 80px;
+}
+.fifth1 img{
+    width: 150px;
+}
+.fifth ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.fifth h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.fifth a{
+    font-size: 13px;
+    color: black;
+}
+.fifth ul li{
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+}
+.fifth2 ul li{
+    display: inline;
+}
+.fifth2 img{
+    width: 20%;
+}
+.fifth2 .to{
+    width: 30%;
+}
+
+@media(max-width:990px) {
+    .nav-link{
+        font-size: 15px;
+    }
+    .fourth-bg{
+        width: 100%;
+        background-size: cover;
+    }
+}
+@media(max-width:767px){
+    .second11 img{
+        width: 100px;
+        background-size: cover;
+    }
+    .register-form{
+        height: 390px;
+        text-align: center;
+        padding: 10px 10px 60px 10px;
+    }
+    .bx{
+        width: 100%;
+        height: 280px;
+        background-size: cover;
+    }
+    .bx11{
+        width: 100%;
+        height: 280px;
+        background-size: cover;
+    }
+}
+@media(max-width:710px){
+    .first1 ul li{
+        display: block;
+    }
+}
+@media(max-width: 576px){
+    .navbar-brand img{
+        width: 60px;
+    }
+    .first h1{
+        color: white;
+        font-size: 45px;
+        font-family: sans-serif;
+    }
+    .first1 p{
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .register-form{
+        background-color: white;
+        height: 320px;
+        text-align: center;
+        padding: 10px 10px 40px 10px;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+    .p{
+        text-align: left;
+        margin-left: 19px;
+        color: grey;
+    }
+    .input-field{
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .sign-button{
+        height: 40px;
+        background-color: blue;
+    }
+    .fifth2 img{
+        width: 15%;
+    }
+    .fifth2 .to{
+        width: 20%;
+    }
+}
