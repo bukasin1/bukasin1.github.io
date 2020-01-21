@@ -1,0 +1,54 @@
+ <div class="navbar-collapse collapse row justify-content-center" id="menu">
+        <div class="col-11">
+            <ul id="faq-l">
+                <li>
+                    <a data-toggle="collapse" class="collapsed" href="#faq111">Software<i class="fa fa-angle-up"></i></a>
+                    <div id="faq111" class="collapse">
+                        <p><a href="#" class="pt-0">OneDrive</a></p>
+                        <p><a href="#">Outlook</a></p>
+                        <p><a href="#">Skype</a></p>
+                        <p><a href="#">OneNote</a></p>                           
+                    </div>
+                </li>
+
+                <li>
+                    <a data-toggle="collapse" href="#faq211" class="collapsed">Enterntainment <i class="fa fa-angle-up"></i></a>
+                    <div id="faq211" class="collapse">
+                        <p><a href="#">Windows digital games</a></p>
+                    </div>
+                </li>
+
+                <li>
+                    <a data-toggle="collapse" href="#faq311" class="collapsed">Business <i class="fa fa-angle-up"></i></a>
+                    <div id="faq311" class="collapse">
+                        <p><a href="#">Microsoft Azure</a></p>
+                        <p><a href="#">Microsoft Dynamics 365</a></p>
+                        <p><a href="#">Microsoft 365</a></p>
+                        <p><a href="#">Microsoft Industry</a></p>
+                        <p><a href="#">Data platform</a></p>
+                    </div>
+                </li>
+
+                <li>
+                    <a data-toggle="collapse" href="#faq411" class="collapsed">Developer & IT<i class="fa fa-angle-up"></i></a>
+                    <div id="faq411" class="collapse">
+                        <p><a href="#">.NET</a></p>
+                        <p><a href="#">Visual Studio</a></p>
+                        <p><a href="#">Windows Server</a></p>
+                        <p><a href="#">Docs</a></p>
+                    </div>
+                </li>
+
+                <li>
+                    <a data-toggle="collapse" href="#faq411" class="collapsed">Other<i class="fa fa-angle-up"></i></a>
+                    <div id="faq411" class="collapse">
+                        <p><a href="#">Microsoft Store</a></p>
+                        <p><a href="#">Free downloads & security</a></p>
+                        <p><a href="#">Education</a></p>
+                    </div>
+                </li>
+            </ul>
+            <div class="site-map"><a href="#">Visit Site Map</a></div>
+        </div>
+         
+    </div>
