@@ -1,0 +1,166 @@
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    z-index: 90;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar-toggler span{
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+}
+.input-group{
+    width: 500px;  
+}
+.form-control{
+    width:100%;   
+}
+.nav li{
+    display: inline-block;
+}
+.nav-link{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+}
+.dropdown-menu{
+    left: -120px;
+}
+.dropdown-menu i{
+    margin-right: 20px;
+    color: blue;
+}
+.main{
+    margin-top: 75px;
+}
+.sidebar{
+    position: fixed;
+    top: 75px;
+}
+.menu{
+    background-color: white;
+    height: 90vh;
+    overflow: hidden;  
+}
+.menu:hover{
+    overflow-y: scroll;
+}
+.sidebar h5{
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.sidebar i{
+    color: blue;
+}
+.active{
+    background-color: gray;
+}
+.sidebar a:hover >h5{
+    background-color: gray;
+    color: white;
+}
+hr{
+    width: 100%;
+}
+.sidebar ul li{
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sidebar ul li:hover{
+    background-color: gray;
+    color: white;
+}
+.mainbar{
+    position: absolute;
+    top: 75px;
+    right: 0;
+    background-color: rgba(203, 204, 203, 0.664);
+    font-family: cursive;
+}
+.row img{
+    width: 100%;
+}
+.icon {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    z-index: 10;
+    visibility: hidden;
+}
+.b:hover > .icon  {
+    visibility: visible;
+}
+.b-sub img{
+    border-radius: 50%;
+    width: 20%;
+}
+.b-sub ul li{
+    display: inline;
+}
+.b{
+    background-color: white;
+}
+.b-sub{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.flex{
+    display: flex;
+}
+@media(max-width:1200px){
+    .sidebar h5{
+        padding-left: 15px;
+    }
+    .sidebar ul li{
+        padding-left: 17px;
+    }
+}
+@media(max-width:997px){
+    .input-group{
+        width: 300px;  
+    }
+}
+@media(max-width:800px){
+    .input-group{
+        width: 180px;  
+    }
+    .navbar{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media(max-width:650px){
+    .input-group{
+        width: 120px;  
+    }
+}
+@media(max-width:567px){
+    .row-sub{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
