@@ -1,7 +1,8 @@
 .navbar{
     position: fixed;
     top: 0px;
-    width: 100%;
+    right: 0px;
+    left: 0px;
     background-color: white;
     padding: 10px 20px;
     z-index: 90;
@@ -48,9 +49,6 @@ a:hover{
 .dropdown-menu i{
     margin-right: 20px;
     color: blue;
-}
-.main{
-    margin-top: 75px;
 }
 .sidebar{
     position: fixed;
@@ -162,5 +160,21 @@ hr{
     .row-sub{
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .navbar-brand img{
+        width: 30%;
+    }
+    .navbar-brand{
+        font-size: 15px;
+    }
+    .mainbar{
+       top: 60px;
+    }
+    .container-fluid{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .navbar i{
+        font-size: 13px;
     }
 }

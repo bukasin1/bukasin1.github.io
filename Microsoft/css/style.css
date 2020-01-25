@@ -311,12 +311,15 @@ a:hover{
         padding: 0px 30px 0px 30px;
     }
 }
-@media(max-width:500px){
+@media(max-width:567px){
     .main-content{
         padding: 0px 20px 0px 20px;
     }
     .main2-content{
         padding: 0px 20px 0px 20px;
+    }
+    .navbar{
+        padding: 0px 10px; 
     }
 }
 
