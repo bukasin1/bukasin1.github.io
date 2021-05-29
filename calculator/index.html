@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href='style.css' rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+                <h1 class="text-info">Simple Calculator</h1>
+        </div>
+        <div class="row justify-content-center">
+                <form>
+                        <p>Number 1</p>
+                        <input type="text" id="num1" class="form-control">
+                        <p>Number 2</p>
+                        <input type="text" id="num2" class="form-control">
+                        <br><br>
+                        <select class="sign">
+                                <option>--Operator--</option>
+                                <option value="add">Add</option>
+                                <option value="subtract">Subtract</option>
+                                <option value="multiply">Multiply</option>
+                                <option value="divide">Division</option>
+                        </select>
+                        <br><br>
+                        <div>
+                            <input type="submit" class="calculate" value="Calculate">
+                            <input type="reset" value="Clear">
+                        </div>
+                        
+
+                </form>
+
+        </div>
+
+    </div>
+
+    <script src="calculate.js"></script>
+</body>
+</html>
