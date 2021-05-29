@@ -504,7 +504,7 @@ body{
 .myname{
     color: #18d36e;
 }
-@media (max-width: 576px){
+@media (max-width: 600px){
     .reduce{
         width: 100%;
     }
