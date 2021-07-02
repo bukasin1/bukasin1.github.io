@@ -48,6 +48,7 @@ body{
     /* border-style: outset; */
     border-top-right-radius: 70px;
     margin-bottom: 50px;
+    text-align: center;
 }
 .text{
     margin-top: 0px;
@@ -89,7 +90,8 @@ body{
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 30%; /* Could be more or less, depending on screen size */
+    min-width: 300px; 
+    max-width: 500px;/* Could be more or less, depending on screen size */
     border-radius: 20px;
   }
   
@@ -117,6 +119,9 @@ body{
   @media screen and (max-width: 550px) {
       .character-box{
           width: 50%;
+      }
+      .modal-content h1{
+          font-size: 20px;
       }
 /*       .characters-section{
           max-width: 400px;
