@@ -8,8 +8,8 @@ let images = [
     "./images/Anakin_Skywalker_RotS.png",
     "./images/princess-leia-1200.jpeg",
     "./images/OwenCardTrader.png",
-    "./images/character1.jpeg" ,
-    "./images/character1.jpeg",
+    "./images/beru-lars.jpeg" ,
+    "./images/r5-d4.jpeg",
     "./images/BiggsHS-ANH.png",
     "./images/obi-wan-ken.jpeg"
 ]
@@ -29,7 +29,7 @@ fetch(starWarsUrl).then(resp => resp.json()).then(data => {
         let characterBox = document.createElement('div')
         characterBox.classList.add('character-box')
         characterBox.innerHTML = `
-            <img src=${images[index]} alt="skywalker">
+            <img src=${images[index]} alt="${item.name}">
             <div class="text">
                 <p class="name">${item.name}</p>
             </div>
